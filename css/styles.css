@@ -1,0 +1,107 @@
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header,
+nav,
+main,
+footer {
+    text-align: center;
+}
+
+nav a {
+    display: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #4e748b;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fff;
+    background-color: #173f73;
+    font-size: 1rem;
+    border-bottom: 2px solid pink;
+}
+
+nav a.current {
+    color: aliceblue;
+    background-color: #173f73;
+
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+footer {
+    font-size: 0.75rem;
+    color: #7e8da0;
+    line-height: 0.5rem;
+}
+
+#about-main {
+    display: block;
+    margin: 0 auto;
+    padding-top: 3rem;
+}
+
+#table-header {
+    background-color: #fff;
+    color: #7e8da0;
+}
+
+.table-row {
+    background-color: #474545;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto 2rem;
+    width: 50%;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.hobby {
+    display: table;
+    padding-left: 2rem;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.hobby li {
+    color: pink;
+    font-style: italic;
+    padding: 0.5rem;
+
+}
+
+iframe {
+    display: block;
+    width: min(100%, 40rem);
+    min-height: 40rem;
+    margin: 2rem auto 0;
+    border: 1px solid #fff;
+}
+
+h1 {
+    font-family: "Italiana", serif;
+}
+
+section .quote {
+    color: pink;
+}
