@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Guess a Number </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="<link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Italiana&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sniglet:wght@400;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1>Guess the Number!</h1>
+        <h2>Guess a number between 1 and 99 in seven attempts!</h2>
+        <!--count image-->
+        <img id="countImg" src="img/dracula.jpeg" alt="Count Dracula counting numbers">
+    </header>
+    <br>
+    <div id="main">
+        Enter a guess:
+        <input type="text" id="playerGuess" size="5">
+        <button id="guessBtn"> Guess </button> <br>
+        <button id="resetBtn"> Play Again </button>
+        <div id="feedback"></div>
+        <div>Previous Guesses: <span id="guesses"></span></div>
+        <div>Attempts Left: <span id="attemptsLeft">7</span></div>
+        <div>Total Wins: <span id="totalWins">0</span></div>
+        <div>Total Losses: <span id="totalLosses">0</span></div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

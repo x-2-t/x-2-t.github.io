@@ -1,0 +1,53 @@
+body {
+    background-color: #c4a3e6;
+    color: white;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    margin: 0;
+    min-height: 100vh;
+    text-align: center;
+}
+
+#countImg {
+    width: 20rem;
+    height: auto;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+#guessBtn,
+#resetBtn {
+    background: linear-gradient(to bottom, #bd21e8, #8905b8);
+    color: white;
+    border: 0.2rem solid #e88aff;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+#playerGuess {
+    background-color: white;
+    color: #282628;
+    border: 0.2rem solid white;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+main,
+div {
+    padding-top: 1rem;
+}
+
+#feedback,
+div {
+    font-size: 1.5rem;
+}
