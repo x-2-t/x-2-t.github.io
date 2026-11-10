@@ -1,0 +1,16 @@
+.landscapeImg {
+    background-image: url(../img/landscape.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 20rem;
+}
+
+h1 {
+    color: rgb(213, 145, 55);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+body {
+    background-color: rgb(239, 228, 213);
+}
