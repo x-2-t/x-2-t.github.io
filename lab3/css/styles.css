@@ -1,0 +1,137 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0.50)), url("../img/city.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 1.25rem;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 25rem;
+}
+
+form:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+
+button {
+    display: block;
+    margin: 1rem auto;
+    background-color: #8b9fc4;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #657dab;
+}
+
+
+
+input[type="text"],
+input[type="password"] {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+    padding: 0.3rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+#city,
+#latitude,
+#longitude {
+    display: inline-block;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    min-height: 1.75rem;
+    width: 100%;
+    padding: 0.3rem;
+    box-sizing: border-box;
+    margin-bottom: 0.5rem;
+}
+
+
+select {
+    display: block;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+    padding: 0.3rem;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-top: 2rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* highlight the password fields */
+input[type="password"]:focus {
+    outline-color: #8b9fc4;
+}
+
+/* highlight the dropdowns */
+select:focus {
+    outline-color: #8b9fc4;
+}
+
+/* change the textbox borders when hover */
+input[type="text"]:hover {
+    border-color: #8b9fc4;
+}
+
+#city:hover,
+#latitude:hover,
+#longitude:hover {
+    border-color: #8b9fc4;
+}
+
+input[type="password"]:hover {
+    border-color: #8b9fc4;
+}
+
+/* change the cursor over radio buttons */
+input[type="radio"] {
+    cursor: pointer;
+}
+
+/* make button shrink to appear its being pressed */
+button:active {
+    transform: scale(0.90);
+}
+
+/* change the dropdown border when hover */
+select:hover {
+    border-color: #8b9fc4;
+}
+
+/* change the color of radio buttons */
+input[type="radio"] {
+    accent-color: #657dab;
+}
+
+/* adds border when using the tab key */
+button:focus-visible {
+    outline: 8px solid #657dab;
+}
