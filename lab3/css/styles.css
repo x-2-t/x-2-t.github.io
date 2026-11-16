@@ -3,6 +3,7 @@ body {
     background-image: linear-gradient(rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0.50)), url("../img/city.jpeg");
     background-size: cover;
     background-attachment: fixed;
+    font-size: 1.25rem:
 }
 
 form {
