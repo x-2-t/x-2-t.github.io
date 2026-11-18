@@ -15,16 +15,16 @@
         <h2>➰ Movie Explorer ➰</h2>
     </header>
     <main>
-        <div id="searchSection">
+        <form id="searchSection">
             <!-- dropdown menu -->
             <label for="movieSelection">Choose a movie:</label>
             <select name="movieSelection" id="movieSelection">
                 <option value="">Studio Ghibli</option>
             </select>
-            <button id="searchBtn">
+            <button type="button" id="searchBtn">
                 <i class="bi bi-search"></i> Search
             </button>
-        </div>
+        </form>
         <p id="movieSelectionError"></p>
         <!-- movie search results section -->
         <section id="movieResults"> <!--parent-->
