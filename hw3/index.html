@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Ghibli Movie Explorer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1><img src="img/logo.png" alt="Studio Ghibli logo"></h1>
+        <h2>➰ Movie Explorer ➰</h2>
+    </header>
+    <main>
+        <div id="searchSection">
+            <!-- dropdown menu -->
+            <label for="movieSelection">Choose a movie:</label>
+            <select name="movieSelection" id="movieSelection">
+                <option value="">Studio Ghibli</option>
+            </select>
+            <button id="searchBtn">
+                <i class="bi bi-search"></i> Search
+            </button>
+        </div>
+        <p id="movieSelectionError"></p>
+        <!-- movie search results section -->
+        <section id="movieResults"> <!--parent-->
+            <img id="moviePoster" src="img/logo.png" alt="Studio Ghibli Movie Poster"> <!--child-->
+            <div id="movieInfo"> <!--child-->
+                <h2 id="movieTitle">Movie Title</h2>
+                <div id="movieDetails">
+                    <span id="movieYear"></span>
+                    <span>•</span>
+                    <span id="movieRuntime"></span>
+                </div>
+                <p id="movieDescription"></p>
+                <hr>
+                <div id="movieDir-RT">
+                    <p>🎬 Director: <span id="movieDirector"></span></p>
+                    <p>🍅 RT Score: <span id="movieScore"></span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="img/csumb.jpg" alt="CSUMB logo">
+        <p>&copy; 2026 Xiomara Turpin. All rights reserved.</p>
+        <p>This site is for academic purposes only.</p>
+        <p>CST 336 Internet Programming.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

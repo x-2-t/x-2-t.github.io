@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("img/hills.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    /*put header, main, footer in vertical position*/
+}
+
+header {
+    padding: 2rem;
+    text-align: center;
+}
+
+header img {
+    width: 32rem;
+    /*logo size*/
+    max-width: 100%;
+    height: auto;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    color: #204b1b;
+}
+
+#searchSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    margin: 0 auto;
+    max-width: 40rem;
+    gap: 2rem;
+    /*space between button and DD*/
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.25);
+}
+
+#searchSection label {
+    font-size: 1.3rem;
+}
+
+#movieSelectionError {
+    color: #b22222;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#movieSelection {
+    background-color: white;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    border: 0.2rem solid #ddd7d7;
+    padding: 0.5rem;
+    cursor: pointer;
+    width: 20rem;
+}
+
+#searchBtn {
+    background-color: #7eaa78;
+    color: white;
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    border: none;
+}
+
+#searchBtn:hover {
+    background-color: #2f6428;
+}
+
+#movieResults {
+    /*change to flex in js*/
+    display: none;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 60rem;
+    gap: 2rem;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.3);
+}
+
+#moviePoster {
+    object-fit: cover;
+    width: 15rem;
+    height: auto;
+    border-radius: 1rem;
+}
+
+#movieInfo {
+    flex: 1;
+    /*take up remaining space*/
+}
+
+#movieTitle {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+#movieDetails {
+    display: flex;
+    color: #5b5b5b;
+    font-size: 1.1rem;
+    gap: 1rem;
+}
+
+#movieDescription {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color: #3c3c3c;
+}
+
+#movieInfo hr {
+    border-top: 0.1rem solid #747272;
+    margin: 1.5rem 0;
+    width: 100%;
+}
+
+#movieDir-RT {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: 1.1rem;
+}
+
+footer {
+    text-align: center;
+    color: #204b1b;
+    font-size: 0.9rem;
+    line-height: 0;
+    margin-top: auto;
+    margin-bottom: 1rem;
+}
+
+footer img {
+    width: 10rem;
+    height: auto;
+}
